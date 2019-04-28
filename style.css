@@ -1,1 +1,114 @@
-/* TODO(you): Write the CSS to finish the assignment! */
+*{
+  box-sizing: border-box;
+}
+.choice-grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction:row;
+  }/* TODO(you): Write the CSS to finish the assignment! */
+ [data-choice-id="blep"]{
+   display:flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   width: 32.5%;
+   height:auto;
+   padding: 0 10px 10px 0;
+   margin-bottom: 20px;
+   background-color: #f4f4f4;
+
+    /* display: none; */
+  }
+[data-choice-id="happy"]{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 32.5%;
+  height:auto;
+  padding: 0 10px 10px 0;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+  /* display: none; */
+}
+[data-choice-id="sleeping"]{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 32.5%;
+  height:auto;
+  padding: 0 10px 10px 0;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+}
+[data-choice-id="dopey"]{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 32.5%;
+  height:auto;
+  padding: 0 10px 10px 0;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+}
+[data-choice-id="burger"]{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 32.5%;
+  height:auto;
+  padding: 0 10px 10px 0;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+}
+[data-choice-id="cart"]{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 32.5%;
+  height:auto;
+  padding: 0 10px 10px 0;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+}
+[data-choice-id="nerd"]{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width:  32.5%;
+  height:auto;
+  padding: 0 10px 10px 0;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+}
+[data-choice-id="shy"]{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 32.5%;
+  height:auto;
+  padding: 0 10px 10px 0;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+}
+[data-choice-id="sleepy"]{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 32.5%;
+  height:auto;
+  padding: 0 10px 10px 0;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+}
+.choice-grid  div  img{
+  width:100%;
+}
