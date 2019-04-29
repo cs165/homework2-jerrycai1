@@ -1,3 +1,14 @@
+@media only screen and (max-width: 700px){
+  article{
+    width: 95%;
+  }
+  header div{
+    display: none;
+  }
+}
+
+
+
 *{
   box-sizing: border-box;
 }
@@ -14,9 +25,10 @@
    justify-content: flex-start;
    width: 32.5%;
    height:auto;
-   padding: 0 10px 10px 0;
+   padding:10px;
    margin-bottom: 20px;
    background-color: #f4f4f4;
+   border:1px solid #dcdcdc;
 
     /* display: none; */
   }
@@ -27,9 +39,10 @@
   justify-content: flex-start;
   width: 32.5%;
   height:auto;
-  padding: 0 10px 10px 0;
+  padding:10px;
   margin-bottom: 20px;
   background-color: #f4f4f4;
+  border:1px solid #dcdcdc;
   /* display: none; */
 }
 [data-choice-id="sleeping"]{
@@ -39,9 +52,10 @@
   justify-content: flex-start;
   width: 32.5%;
   height:auto;
-  padding: 0 10px 10px 0;
+  padding:10px;
   margin-bottom: 20px;
   background-color: #f4f4f4;
+  border:1px solid #dcdcdc;
 }
 [data-choice-id="dopey"]{
   display:flex;
@@ -50,9 +64,10 @@
   justify-content: flex-start;
   width: 32.5%;
   height:auto;
-  padding: 0 10px 10px 0;
+  padding:10px;
   margin-bottom: 20px;
   background-color: #f4f4f4;
+  border:1px solid #dcdcdc;
 }
 [data-choice-id="burger"]{
   display:flex;
@@ -61,20 +76,22 @@
   justify-content: flex-start;
   width: 32.5%;
   height:auto;
-  padding: 0 10px 10px 0;
+  padding:10px;
   margin-bottom: 20px;
   background-color: #f4f4f4;
+  border:1px solid #dcdcdc;
 }
 [data-choice-id="cart"]{
   display:flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  max-width: 32.5%;
+  width: 32.5%;
   height:auto;
-  padding: 0 10px 10px 0;
+  padding:10px;
   margin-bottom: 20px;
   background-color: #f4f4f4;
+  border:1px solid #dcdcdc;
 }
 [data-choice-id="nerd"]{
   display:flex;
@@ -83,9 +100,10 @@
   justify-content: flex-start;
   width:  32.5%;
   height:auto;
-  padding: 0 10px 10px 0;
+  padding:10px;
   margin-bottom: 20px;
   background-color: #f4f4f4;
+  border:1px solid #dcdcdc;
 }
 [data-choice-id="shy"]{
   display:flex;
@@ -94,9 +112,10 @@
   justify-content: flex-start;
   width: 32.5%;
   height:auto;
-  padding: 0 10px 10px 0;
+  padding:10px;
   margin-bottom: 20px;
   background-color: #f4f4f4;
+  border:1px solid #dcdcdc;
 }
 [data-choice-id="sleepy"]{
   display:flex;
@@ -105,10 +124,16 @@
   justify-content: flex-start;
   width: 32.5%;
   height:auto;
-  padding: 0 10px 10px 0;
+  padding:10px;
   margin-bottom: 20px;
   background-color: #f4f4f4;
+  border:1px solid #dcdcdc;
 }
 .choice-grid  div  img{
   width:100%;
+}
+@media only screen and (max-width: 500px){
+  .choice-grid > div{
+    width: 49%;
+  }
 }
